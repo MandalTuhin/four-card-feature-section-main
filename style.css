@@ -76,6 +76,7 @@ article {
 .flex-container {
   display: flex;
   gap: 2em;
+  flex-wrap: wrap;
 }
 
 .flex-center {
@@ -83,7 +84,7 @@ article {
   align-items: center;
 }
 .flex-equal {
-  flex: 1 1 100%;
+  flex: 1 0 20rem;
 }
 
 .card {
