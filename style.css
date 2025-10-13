@@ -49,6 +49,7 @@ main {
 article {
   width: 100%;
   max-width: 72rem;
+  margin: 3em auto;
 }
 
 .heading {
