@@ -95,6 +95,13 @@ article {
   border-radius: 0.4rem;
   margin: 0 auto;
   padding: 2em;
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  /* box-shadow: 0 18px 20px 0 hsla(0, 78%, 62%, 0.334); */
+  box-shadow: 0 18px 20px 0 hsla(0, 0%, 0%, 0.128);
 }
 
 /* .card + .card {
