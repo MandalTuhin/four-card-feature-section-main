@@ -23,6 +23,9 @@
   /* shadows */
   --shadow-card-normal: 0 10px 20px 0 hsla(0, 0%, 0%, 0.128);
   --shadow-card-hover: 0 18px 20px 0 hsla(0, 0%, 0%, 0.128);
+
+  /* transforms */
+  --movement: translateY(-2px);
 }
 
 *,
@@ -103,7 +106,7 @@ article {
 }
 
 .card:hover {
-  transform: translateY(-2px);
+  transform: var(--movement);
   box-shadow: var(--shadow-card-hover);
 }
 
