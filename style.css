@@ -92,14 +92,6 @@ article {
     "calculator";
 }
 
-.flex-center {
-  display: flex;
-  align-items: center;
-}
-.flex-equal {
-  flex: 1 0 20rem;
-}
-
 .card {
   width: 100%;
   background: var(--white);
