@@ -19,6 +19,7 @@
 
   /* font-sizes */
   --fs-heading: clamp(1.7rem, 5vw, 2.4rem);
+  --fs-attribution: 0.6875rem;
 
   /* shadows */
   --shadow-card-normal: 0 10px 20px 0 hsla(0, 0%, 0%, 0.128);
@@ -26,6 +27,9 @@
 
   /* transforms */
   --movement: translateY(-2px);
+
+  /* text-colors */
+  --t-col-attribution: hsl(228, 45%, 44%);
 }
 
 *,
@@ -154,11 +158,11 @@ article {
 }
 
 .attribution {
-  font-size: 11px;
+  font-size: var(--fs-attribution);
   text-align: center;
 }
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: var(--t-col-attribution);
 }
 
 @media (min-width: 68.6875em) {
