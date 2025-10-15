@@ -157,6 +157,7 @@ article {
 
 @media (min-width: 68.6875em) {
   .grid-container {
+    grid-template-columns: repeat(3, 1fr);
     grid-template-areas:
       ". teambuilder  ."
       "supervisor teambuilder calculator"
