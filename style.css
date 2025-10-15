@@ -181,3 +181,10 @@ article {
     grid-area: calculator;
   }
 }
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    transition: none !important;
+  }
+}
