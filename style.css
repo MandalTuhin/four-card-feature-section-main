@@ -71,6 +71,7 @@ article {
 }
 
 .light-text {
+  display: block;
   font-weight: 200;
   color: var(--grey-400);
 }
