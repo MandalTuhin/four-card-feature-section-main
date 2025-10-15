@@ -115,10 +115,6 @@ article {
   box-shadow: var(--shadow-card-hover);
 }
 
-/* .card + .card {
-  margin-top: 2em;
-} */
-
 .card-name {
   font-size: 1.3rem;
   font-weight: 600;
