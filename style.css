@@ -153,6 +153,14 @@ article {
   grid-area: calculator;
 }
 
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
 @media (min-width: 68.6875em) {
   .grid-container {
     grid-template-columns: repeat(3, 1fr);
