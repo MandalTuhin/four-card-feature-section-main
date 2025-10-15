@@ -77,7 +77,7 @@ article {
 
 .grid-container {
   display: grid;
-  gap: 2em;
+  gap: 2rem;
   grid-template-areas:
     "supervisor"
     "teambuilder"
