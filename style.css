@@ -78,6 +78,11 @@ article {
 .grid-container {
   display: grid;
   gap: 2em;
+  grid-template-areas:
+    "supervisor"
+    "teambuilder"
+    "karma"
+    "calculator";
 }
 
 .flex-center {
@@ -126,57 +131,52 @@ article {
   margin: 2rem 0 0.8rem auto;
 }
 
-.cyan-one {
+.supervisor {
   max-width: 45rem;
   border-top: 4px solid var(--cyan);
+  grid-area: supervisor;
 }
 
-.red-one {
+.team-builder {
   max-width: 45rem;
   border-top: 4px solid var(--red);
+  grid-area: teambuilder;
 }
 
-.orange-one {
+.karma {
   max-width: 45rem;
   border-top: 4px solid var(--orange);
+  grid-area: karma;
 }
 
-.blue-one {
+.calculator {
   max-width: 45rem;
   border-top: 4px solid var(--blue);
+  grid-area: calculator;
 }
 
 @media (min-width: 68.6875em) {
   .grid-container {
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(4, 0.5fr);
+    grid-template-areas:
+      ". teambuilder  ."
+      "supervisor teambuilder calculator"
+      "supervisor karma calculator"
+      ". karma .";
   }
 
-  .cyan-one {
-    grid-row-start: 2;
-    grid-row-end: 4;
-    grid-column-start: 1;
-    grid-column-end: 2;
+  .supervisor {
+    grid-area: supervisor;
   }
 
-  .red-one {
-    grid-row-start: 1;
-    grid-row-end: 3;
-    grid-column-start: 2;
-    grid-column-end: 3;
+  .team-bulider {
+    grid-area: teambuilder;
   }
 
-  .orange-one {
-    grid-row-start: 3;
-    grid-row-end: 5;
-    grid-column-start: 2;
-    grid-column-end: 3;
+  .karma {
+    grid-area: karma;
   }
 
-  .blue-one {
-    grid-row-start: 2;
-    grid-row-end: 4;
-    grid-column-start: 3;
-    grid-column-end: 4;
+  .calculator {
+    grid-area: calculator;
   }
 }
