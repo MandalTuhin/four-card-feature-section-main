@@ -95,7 +95,7 @@ article {
   gap: 2rem;
   grid-template-areas:
     "supervisor"
-    "teambuilder"
+    "team-builder"
     "karma"
     "calculator";
 }
@@ -142,7 +142,7 @@ article {
 .team-builder {
   max-width: 45rem;
   border-top: 4px solid var(--red);
-  grid-area: teambuilder;
+  grid-area: team-builder;
 }
 
 .karma {
