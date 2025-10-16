@@ -30,7 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [My solution](https://www.frontendmentor.io/solutions/four-card-feature-section-responsive-css-grid-and-custom-properties-lpW8HEKuCk)
+
 - Live Site URL: [Live site](https://four-card-feature-section-main-tm.netlify.app/)
 
 ## My process
