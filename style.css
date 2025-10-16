@@ -193,8 +193,8 @@ article {
 }
 
 @media (prefers-reduced-motion: reduce) {
-  * {
-    animation: none !important;
-    transition: none !important;
+  .card {
+    animation: none;
+    transition: none;
   }
 }
