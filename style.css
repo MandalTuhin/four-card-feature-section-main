@@ -169,26 +169,10 @@ article {
   .grid-container {
     grid-template-columns: repeat(3, 1fr);
     grid-template-areas:
-      ". teambuilder  ."
-      "supervisor teambuilder calculator"
+      ". team-builder  ."
+      "supervisor team-builder calculator"
       "supervisor karma calculator"
       ". karma .";
-  }
-
-  .supervisor {
-    grid-area: supervisor;
-  }
-
-  .team-builder {
-    grid-area: teambuilder;
-  }
-
-  .karma {
-    grid-area: karma;
-  }
-
-  .calculator {
-    grid-area: calculator;
   }
 }
 
